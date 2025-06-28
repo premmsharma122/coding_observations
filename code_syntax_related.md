@@ -5,5 +5,5 @@
 # How we can apply a sorting in hashMap to acces their key 
 <prev>
             ArrayList<Integer> arr= new ArrayList<>(hm.keySet()); // here hm -> HashMap
-            arr.sort((a,b)->hm.get(b) - hm.get(a)); // sorting based on value.
-<prev/>
+            arr.sort((a,b)->hm.get(b) - hm.get(a)); // sorting based on value.<prev/>
+
