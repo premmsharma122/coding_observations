@@ -16,3 +16,5 @@ Ladders should be used on large climbs (since one ladder = infinite height jump)
 ###  👀 Observation 2: We don’t know climbs in advance
 You only see each climb = heights[i+1] - heights[i] as you iterate.
 So you track each climb and decide later which ones should use ladders or bricks.
+
+###  In interval question Do a shorting based on first or second element (using in most of questions).
