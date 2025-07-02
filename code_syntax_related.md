@@ -21,3 +21,11 @@ PriorityQueue<int[]> pq = new PriorityQueue<>(
     )
 );
 ```
+### Simplest syntax to loop over keys in HashMap
+```java
+for(int n : hm.keySet()){
+            if(hm.get(n) > k){
+                ans.add(n);
+            }
+}
+```
