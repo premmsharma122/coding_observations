@@ -29,8 +29,8 @@ for(int n : hm.keySet()){
             }
 }
 ```
-### How to optimize a nested loop like find sum of pairs == target , Here a simple hashMap based approach 
-##  we have given 2 int[] arr, so we create a hashmap add all values for arr2 in hashmap , and then iterate a for each loop on arr1 like that->
+## How to optimize a nested loop like find sum of pairs == target , Here a simple hashMap based approach 
+###  we have given 2 int[] arr, so we create a hashmap add all values for arr2 in hashmap , and then iterate a for each loop on arr1 like that->
 ```java
  HashMap<Integer, Integer> hm = new HashMap<>();
         for (int n : arr2){
