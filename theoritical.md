@@ -18,3 +18,8 @@ You only see each climb = heights[i+1] - heights[i] as you iterate.
 So you track each climb and decide later which ones should use ladders or bricks.
 
 ###  In interval question Do a shorting based on first or second element (using in most of questions).
+###  Expression	Behavior
+```java
+Double.compare(a, b)	ascending (default) — min heap
+Double.compare(b, a)	descending — max heap ✅
+```
