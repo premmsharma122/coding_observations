@@ -23,3 +23,10 @@ So you track each climb and decide later which ones should use ladders or bricks
 Double.compare(a, b)	ascending (default) — min heap
 Double.compare(b, a)	descending — max heap ✅
 ```
+###  Arrays.sort(pairs, (a, b) -> Double.compare(a[0], b[0]));
+```java
+pairs is the 2D array you're sorting
+(a, b) is a lambda expression that compares two rows
+a[0] and b[0] are the first elements of each row (ratios)
+Double.compare(a[0], b[0]) compares two doubles safely
+```
