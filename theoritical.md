@@ -33,4 +33,4 @@ Double.compare(a[0], b[0]) compares two doubles safely
 ###  Always sort the array first if you’re dealing with distance or position based problems.
 Keep track of:
 Binary search conditions
-Feasibility function correctness
+Feasibility function correctness.
