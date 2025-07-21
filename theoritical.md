@@ -34,3 +34,11 @@ Double.compare(a[0], b[0]) compares two doubles safely
 Keep track of:
 Binary search conditions
 Feasibility function correctness.
+###  Time Complexity Realted MarkDowns ->
+When solving a problem📑 Look at the input size  & Use the rule of thumb:
+Max n                |             Best Time Complexity You Should Aim For
+≤ 10	                              Try anything (even brute force)
+≤ 100	                              O(n³) or O(2ⁿ) works
+≤ 1000	                            O(n²) is OK
+≤ 10⁵	                              Try O(n log n) or O(n)
+≤ 10⁶	                              Only O(n) will work
