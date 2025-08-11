@@ -42,3 +42,10 @@ Max n                |             Best Time Complexity You Should Aim For
 ≤ 1000	                            O(n²) is OK
 ≤ 10⁵	                              Try O(n log n) or O(n)
 ≤ 10⁶	                              Only O(n) will work
+
+##  About Eularian Circuit Questions (Graph) -
+###  if any grpah has two odd degree of vertices nd rest are even then it will be Eular path.
+###  if any grpah has all even degree of vertices then it will be Eular circuit
+###  If the graph has no edges, it’s trivially considered connected for the purpose of Eulerian path/circuit check.
+###  Steps to check Eualr circuit or path -> 1. check all compontents are connected or not if not then return 0;
+###                                          2. then check for odd degree of every vertices if odd count is 2 then return 1 (eular path) if count is zero then return 2 (eular ciruit). GFG Q. -> https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1
