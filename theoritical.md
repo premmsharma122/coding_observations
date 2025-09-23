@@ -49,3 +49,10 @@ Max n                |             Best Time Complexity You Should Aim For
 ###  If the graph has no edges, it’s trivially considered connected for the purpose of Eulerian path/circuit check.
 ###  Steps to check Eualr circuit or path -> 1. check all compontents are connected or not if not then return 0;
 ###                                          2. then check for odd degree of every vertices if odd count is 2 then return 1 (eular path) if count is zero then return 2 (eular ciruit). GFG Q. -> https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1
+
+#  🔑 Rule of Thumb
+###  Whenever you split on a character that has a special meaning in regex (., *, +, ?, |, ^, $, (, ), [, ], {, }, \\), you must escape it like this:
+-  \\. for .
+-  \\* for *
+-  \\+ for +
+-  etc.
