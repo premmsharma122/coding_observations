@@ -52,7 +52,7 @@ Max n                |             Best Time Complexity You Should Aim For
 
 #  🔑 Rule of Thumb
 ###  Whenever you split on a character that has a special meaning in regex (., *, +, ?, |, ^, $, (, ), [, ], {, }, \\), you must escape it like this:
--  \\. for .
+-   \\. for .
 -  \\* for *
 -  \\+ for +
 -  etc.
