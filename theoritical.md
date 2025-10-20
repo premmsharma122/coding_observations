@@ -56,3 +56,9 @@ Max n                |             Best Time Complexity You Should Aim For
 -  \\* for *
 -  \\+ for +
 -  etc.
+
+#  Pick the medians
+```java
+-  After sorting, the two middle elements (arr[n-1] and arr[n]) are the closest possible medians you can get for any split into odd-sized classes.
+-  So the minimum absolute difference between class medians = arr[n] - arr[n-1].
+```
