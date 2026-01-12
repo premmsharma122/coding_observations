@@ -7,7 +7,7 @@ public void pushAll(TreeNode root) {
 ```
 ### How we can apply sorting in a HashMap to access their keys
 
-```java
+```java 
 ArrayList<Integer> arr = new ArrayList<>(hm.keySet()); // hm is a HashMap
 arr.sort((a, b) -> hm.get(b) - hm.get(a)); // sort keys based on value (descending)
 ```
