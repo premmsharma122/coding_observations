@@ -52,7 +52,7 @@ Max n                |             Best Time Complexity You Should Aim For
 ###  Steps to check Eualr circuit or path -> 1. check all compontents are connected or not if not then return 0;
 ###                                          2. then check for odd degree of every vertices if odd count is 2 then return 1 (eular path) if count is zero then return 2 (eular ciruit). GFG Q. -> https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1
 
-#  🔑 Rule of Thumb
+#  🔑 Rule of Thumb 
 ###  Whenever you split on a character that has a special meaning in regex (., *, +, ?, |, ^, $, (, ), [, ], {, }, \\), you must escape it like this:
 -   \\. for .
 -  \\* for *
@@ -62,5 +62,5 @@ Max n                |             Best Time Complexity You Should Aim For
 #  Pick the medians
 ```java
 -  After sorting, the two middle elements (arr[n-1] and arr[n]) are the closest possible medians you can get for any split into odd-sized classes.
--  So the minimum absolute difference between class medians = arr[n] - arr[n-1].
+-  So the minimum absolute difference between class medians = arr[n] - arr[n-1]. 
 ```
