@@ -5,7 +5,7 @@
 #  652. Find Duplicate Subtrees 
 ###  In this question's solution i find out a string based apporach which design a unique path for tree's left + right node,          then apply hashmap to count the particular path.
 ```java
-String stringformed = currroot + "$" + left + "$" + right;
+String stringformed = currroot + "$" + left + "$" + right; 
 ```
 
 #  1642. Furthest Building You Can Reach
