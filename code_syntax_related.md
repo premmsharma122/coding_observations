@@ -18,7 +18,7 @@ PriorityQueue<int[]> pq = new PriorityQueue<>(
     (a, b) -> Integer.compare(
         b[0]*b[0] + b[1]*b[1],
         a[0]*a[0] + a[1]*a[1]
-    )
+    ) 
 );
 ```
 ### Simplest syntax to loop over keys in HashMap
