@@ -42,3 +42,12 @@ for(int n : hm.keySet()){
         }
        return c;
 ```
+### Convert Integer to its binary and reverse binary the return function
+```java
+ private int reflect(int num) {
+        String binary = Integer.toBinaryString(num);
+        StringBuilder sb = new StringBuilder(binary);
+        sb.reverse();
+        return Integer.parseInt(sb.toString(), 2);
+    }
+```
