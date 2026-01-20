@@ -49,5 +49,5 @@ for(int n : hm.keySet()){
         StringBuilder sb = new StringBuilder(binary);
         sb.reverse();
         return Integer.parseInt(sb.toString(), 2);
-    }
+    } 
 ```
