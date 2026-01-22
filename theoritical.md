@@ -64,3 +64,19 @@ Max n                |             Best Time Complexity You Should Aim For
 -  After sorting, the two middle elements (arr[n-1] and arr[n]) are the closest possible medians you can get for any split into odd-sized classes.
 -  So the minimum absolute difference between class medians = arr[n] - arr[n-1]. 
 ```
+#  TreeMap Function IMP..
+```java
+✅ lowerEntry(x)
+👉 Meaning:
+x se strictly chhota sabse bada key
+
+(= equal allow nahi karta)
+  --
+✅ floorEntry(x)
+👉 Meaning:
+x se chhota ya barabar sabse bada key
+Difference in one table
+Function	Equal allowed?	Example
+floorEntry(x)	✅ YES	≤ x
+lowerEntry(x)	❌ NO	< x
+```
