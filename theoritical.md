@@ -97,3 +97,16 @@ Kyuki:
 
 max difference = max − min
 ```
+###  Sliding Window Kab Use Hoga ?
+```java
+sliding window idea aata hai
+
+Subarray continuous hai ❗
+
+👉 whenever you see:
+
+subarray / longest / continuous
+
+
+💡 sliding window automatically dimag me aani chahiye.
+```
