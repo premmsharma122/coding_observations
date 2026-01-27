@@ -80,3 +80,20 @@ Function	Equal allowed?	Example
 floorEntry(x)	✅ YES	≤ x
 lowerEntry(x)	❌ NO	< x
 ```
+##  SubArray Problem Observation: 
+```java
+absolute difference between any two elements ≤ limit
+
+Ye line sabse important hai.
+
+“any two elements” ka matlab kya?
+
+❌ sirf adjacent nahi
+❌ sirf first–last nahi
+
+✅ pure subarray ka max aur min matter karta hai
+
+Kyuki:
+
+max difference = max − min
+```
