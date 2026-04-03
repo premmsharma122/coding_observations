@@ -110,3 +110,7 @@ subarray / longest / continuous
 
 💡 sliding window automatically dimag me aani chahiye.
 ```
+## CP
+```sql
+The Problem: Arrays.sort()In Java, Arrays.sort(long[]) uses a Dual-Pivot Quicksort. While usually fast, it has a worst-case time complexity of $O(N^2)$ on specifically crafted inputs (like those in Test #7). Since $N = 200,000$, $N^2$ is $4 \cdot 10^{10}$, which causes the TLE.The Fix: Shuffle or Use a Different SortTo fix this, you have two main options:Shuffle the array before sorting to break the anti-quicksort pattern.Use Arrays.sort(Long[]) (the boxed version) which uses TimSort, guaranteed to be $O(N \log N)$.Use Collections.sort() on an ArrayList, which also uses TimSort.
+```
