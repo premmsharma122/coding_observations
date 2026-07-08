@@ -118,3 +118,17 @@ The Problem: Arrays.sort()In Java, Arrays.sort(long[]) uses a Dual-Pivot Quickso
 ```java
 Ek aur Solution: Long[] vs long[]Agar aap long[] (primitive) ki jagah Long[] (Object wrapper) use karte, toh Java Arrays.sort() mein Quicksort ki jagah TimSort use karta. TimSort ka worst case bhi $O(N \log N)$ hi hota hai, isliye wo bina shuffle ke bhi pass ho jata. Lekin Object array Long[] memory zyada leta hai aur thoda slow hota hai, isliye shuffle + primitive array sabse best optimization hai.
 ```
+## FOR Java Comparator Sorting :
+```java
+// First element Ascending
+(a, b) -> a[0] - b[0]
+
+// First element Descending
+(a, b) -> b[0] - a[0]
+
+// Second element Ascending
+(a, b) -> a[1] - b[1]
+
+// Second element Descending
+(a, b) -> b[1] - a[1]
+```
