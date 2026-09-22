@@ -4,7 +4,7 @@
 public void pushAll(TreeNode root) {
     for (; root != null; arr.push(root), root = root.left);
 }
-```
+``` 
 ### How we can apply sorting in a HashMap to access their keys
 
 ```java 
